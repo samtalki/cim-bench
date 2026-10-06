@@ -63,8 +63,7 @@ Thanks to [Mohamed Numair (@MohamedNumair)](https://github.com/MohamedNumair)
 for PowerIO's original CGMES implementation and the benchmark proposal in
 [PowerIO #456](https://github.com/eigenergy/powerio/issues/456), and to
 [Kristjan / Haigutus](https://github.com/Haigutus) and CIM bench's contributors
-for this harness. [Markus Mirz's pending cimoxide changes](https://github.com/Haigutus/cim-bench/pull/18)
-are a separate comparator; this adapter does not incorporate that unmerged patch.
+for this harness.
 Dataset licenses and contributor notices remain with the existing submodules.
 
 ## Parsers/Serializers
