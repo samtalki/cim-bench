@@ -1,6 +1,6 @@
 # Build a reviewed source revision; POWERIO_REF must be an immutable commit.
 FROM docker.io/library/rust:1-bookworm AS wheel
-ARG POWERIO_REF=d35237377ec62b69dcf8a63ee14a547a631a90d5
+ARG POWERIO_REF=6b101a0c73b916639519d7f46d9dd9b497366544
 RUN test -n "$POWERIO_REF"
 COPY --from=ghcr.io/astral-sh/uv:0.11 /uv /uvx /bin/
 RUN git clone https://github.com/eigenergy/powerio.git /src && cd /src && git checkout "$POWERIO_REF"
